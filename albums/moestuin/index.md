@@ -2,22 +2,22 @@
 title: Moestuin
 ---------------
 
-Updated every once and a while.
+Updated every once in a while.
 
 ##In the beginning...
 
 Some photos of the plants in their young stage, approximately 2 weeks since
 sowing the seeds. The peppers came out last.
 
-![](peper.png "alt text")
+![Pepper plant, two days after first glimpse.](peper.png "Pepper")
 
-![](aubergine.png "Eggplant")
+![Eggplant](aubergine.png "Eggplant")
 
 ![The courgettes grew quite fast. Note the roots](courgette.png "Courgette")
 
 ![These are "Cœur de Bœuf" tomatos.](tomaat.png "Cœur de Bœuf tomatos")
 
-![](basilicum.png "Young basil plants")
+![The basil forest.](basilicum.png "Young basil plants")
 
 ##Replanting
 
