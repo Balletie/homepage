@@ -7,10 +7,9 @@ build: site
 
 site: site.hs
 	ghc --make -threaded site.hs
-	./site clean
 
-publish: site
-	./publish.sh
+publish: build
+	./publish.sh "$(m)"
 
 watch: build
 	./site watch
