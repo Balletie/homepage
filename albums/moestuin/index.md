@@ -13,7 +13,7 @@ sowing the seeds. The peppers came out last.
 
 ![Eggplant](aubergine.png "Eggplant")
 
-![The courgettes grew quite fast. Note the roots](courgette.png "Courgette")
+![The courgettes grew quite fast. Note the roots.](courgette.png "Courgette")
 
 ![These are "Cœur de Bœuf" tomatos.](tomaat.png "Cœur de Bœuf tomatos")
 
@@ -33,4 +33,4 @@ sticks...
 
 ![There, all better... :(](problem_solved.png)
 
-We'll see if it can "recover".
+It needs a day to recover.
