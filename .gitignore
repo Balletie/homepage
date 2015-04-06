@@ -6,6 +6,5 @@ _cache
 *.swp
 *.o
 *.hi
-publish.sh
 site
 dist
