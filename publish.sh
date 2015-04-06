@@ -1,5 +1,5 @@
 #! /usr/local/bin/bash
-rsync -av --delete --exclude '.git' _site/ ../balletie.github.io
+rsync -av --delete --exclude-from '.syncignore' _site/ ../balletie.github.io
 pushd ../balletie.github.io
 git status
 read -p "Commit and push? (y/n) " answer
