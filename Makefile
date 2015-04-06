@@ -10,7 +10,7 @@ site: site.hs
 	./site clean
 
 publish: site
-	./site deploy
+	./publish.sh
 
 watch: build
 	./site watch
