@@ -85,7 +85,7 @@ prefixFileName pr = customRoute $ addPrfx pr
                     >>> second (p ++) >>> uncurry combine
 
 postCtx :: Context String
-postCtx = dateField             "date" format <>
-          modificationTimeField "modTime" format <>
+postCtx = dateField             "date"                  format <>
+          modificationTimeField "modTime" ("%R %p " ++  format)<>
           defaultContext
-  where format = "%B %e, %Y"
+  where format = "%B %d, %Y"
