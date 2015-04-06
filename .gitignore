@@ -1,0 +1,10 @@
+_site
+_cache
+.DS_Store
+*.png
+*.jpg
+*.swp
+*.o
+*.hi
+site
+dist

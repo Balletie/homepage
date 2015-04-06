@@ -1,0 +1,10 @@
+Here's some albums I made:
+<ul>
+    $for(albums)$
+        <li>
+            <a href="$url$">$title$</a> - $modTime$
+        </li>
+    $endfor$
+</ul>
+Here you can find all my previous posts:
+$partial("templates/post-list.html")$
