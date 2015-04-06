@@ -12,15 +12,18 @@ a:visited {
 
 div#header {
     border-bottom: 2px solid black;
-    margin-bottom: 30px;
-    padding: 12px 0px 12px 0px;
+    margin-bottom: 4px;
+    padding: 8px 0px 8px 0px;
+}
+
+div#logo {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 div#logo a {
     color: black;
-    float: left;
-    font-size: 18px;
-    font-weight: bold;
     text-decoration: none;
 }
 
