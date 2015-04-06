@@ -8,9 +8,6 @@ build: site
 site: site.hs
 	ghc --make -threaded site.hs
 
-publish: build
-	./publish.sh "$(m)"
-
 watch: build
 	./site watch
 
