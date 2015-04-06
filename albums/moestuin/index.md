@@ -21,7 +21,7 @@ sowing the seeds. The peppers came out last.
 
 ##Replanting
 
-The courgette started getting too big, so we replanted them into bigger pots.
+The courgettes started getting too big, so we replanted them into bigger pots.
 It was a sunny day, but still a bit cold.
 
 ![Replanting in process.](replant.png)
