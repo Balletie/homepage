@@ -33,11 +33,11 @@ case ${answer:0:1} in
 	y|Y)
 set -x
 	git add .
-	git commit -m $message
+	git commit -m "$message"
 	git push origin master
 	popd
 	git add $relevant_files
-	git commit -m $message
+	git commit -m "$message"
 	git push origin master
 	;;
 	*)
