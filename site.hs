@@ -61,11 +61,11 @@ main = hakyllWith myConfig $ do
   create ["archive.html"] $ do
     route idRoute
     compile $ do
-      albums <- loadAll "albums/*/*.md" -- Sort on modification time..
+      albums <- loadAll "albums/*/*.md" -- TODO: Sort on modification time..
       posts <- recentFirst =<< loadAll "posts/*"
-      let archiveCtx = listField "posts" postCtx (return posts)          <>
-                       listField "albums" postCtx (return albums)        <>
-                       constField "title" "Archives"                     <>
+      let archiveCtx = listField "posts" postCtx (return posts)   <>
+                       listField "albums" postCtx (return albums) <>
+                       constField "title" "Archives"              <>
                        defaultContext
 
       makeItem ""
