@@ -79,6 +79,10 @@ resizeCompiler :: String -> Compiler (Item ByteString)
 resizeCompiler geom = getResourceLBS
       >>= withItemBody (unixFilterLBS "convert" ["-","-resize",geom,"png:-"])
 
+-- |Visual representation:
+--                         ╭──────────────╮
+-- ╾─╼ toFilePath ╾─╼ splitFileName    combine ╾─▶
+--                         ╰──╼ (p ++) ╾──╯
 prefixFileName :: String -> Routes
 prefixFileName pr = customRoute $ addPrfx pr
   where addPrfx p = toFilePath >>> splitFileName
