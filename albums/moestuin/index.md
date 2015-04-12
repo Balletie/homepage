@@ -43,5 +43,5 @@ the initial leafs, which were rounded.
 ![The new leaf, sticking out towards the window](extra_leaf.png)
 
 Meanwhile the "zombie courgette" got better, but the stem is much smaller than
-that of the others. When it gets too much light it gets flacid again, so we
+that of the others. When it gets too much light it goes flaccid again, so we
 block the light with a piece of paper around it.
