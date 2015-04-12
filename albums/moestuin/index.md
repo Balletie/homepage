@@ -34,3 +34,10 @@ sticks...
 ![There, all better... :(](problem_solved.png)
 
 It needs a day to recover.
+
+##Courgettes getting an extra leaf!
+
+Within a week these leafs grew quite big. They're quite different in shape than
+the initial leafs, which were rounded.
+
+![The new leaf, sticking out towards the window](extra_leaf.png)
