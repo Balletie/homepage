@@ -1,0 +1,6 @@
+---
+title: Test gist embed with really really long title
+---
+This is a test.
+
+<script src="https://gist.github.com/Balletie/db605e18b4315bdcd33b.js"></script>

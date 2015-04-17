@@ -14,12 +14,15 @@ div#header {
     border-bottom: 2px solid black;
     margin-bottom: 4px;
     padding: 8px 0px 8px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
 }
 
 div#logo {
-    float: left;
-    font-size: 18px;
-    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: "(…)";
 }
 
 div#logo a {
@@ -28,13 +31,11 @@ div#logo a {
 }
 
 div#header #navigation {
-    text-align: right;
+    float: right;
 }
 
 div#header #navigation a {
     color: black;
-    font-size: 18px;
-    font-weight: bold;
     margin-left: 12px;
     text-decoration: none;
     text-transform: uppercase;
